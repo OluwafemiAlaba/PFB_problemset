@@ -1,0 +1,4 @@
+#In Git, there are three main elements
+    #1: WD
+    #2: Index
+    #3: HEAD
