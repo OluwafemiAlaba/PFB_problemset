@@ -1,1 +1,228 @@
-history
+    1  python
+    2  /Users/oluwafemialaba/anaconda3/bin/spyder ; exit;
+    3  Python
+    4  python
+    5  emacs sc.pl
+    6  perl
+    7  python
+    8  python script1.py
+    9  pwd
+   10  ls
+   11  cd Documents/
+   12  ls
+   13  python script1.py
+   14  emacs script2.py
+   15  python script2.py
+   16  emacs script2.py > saveit.txt
+   17  python
+   18  python
+   19  python
+   20  pwd
+   21  cd Documents/
+   22  ls
+   23  python script2.py > saveit.txt
+   24  ls
+   25  ls -lt
+   26  cat saveit.txt 
+   27  mkdir pythonlesson
+   28  ls
+   29  mv *.py pythonlesson/
+   30  ls
+   31  mv *.txt pythonlesson/
+   32  ls
+   33  cd pythonlesson/
+   34  ls
+   35  emacs brian
+   36  brian
+   37  ls
+   38  chmod +x brian
+   39  ls -l
+   40  brian
+   41  python brian
+   42  python
+   43  import script1.py 
+   44  reload script1.py 
+   45  ls
+   46  cd Documents/
+   47  ls
+   48  ls -lth
+   49  mkdir R_script
+   50  ls
+   51  ls -lat
+   52  cd R_script/
+   53  ls
+   54  ls
+   55  ls -ltr
+   56  cd Documents/
+   57  ls
+   58  ls -tr
+   59  ls -lah
+   60  l
+   61  ll
+   62  cat \#script2.py# 
+   63  clear
+   64  quit
+   65  exit
+   66  mail -s 'An important message' 'oluwafemialaba@gmail.com'
+   67  -bash
+   68  clear
+   69  echo 'Hello World!'
+   70  ls -l
+   71  cd Documents/
+   72  cd pfb
+   73  ls -l
+   74  cd 
+   75  cd Documents/
+   76  rmdir pfb
+   77  ls
+   78  ls -lt | more
+   79  mkdir pfb
+   80  cd pfb
+   81  clear
+   82  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa
+   83  apropos wget
+   84  man curl
+   85  curl -o https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa
+   86  curl -0 https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa
+   87  ls -l
+   88  ls -lt
+   89  curl -0 https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa .
+   90  curl -0 https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa > seq.nt.fa
+   91  ls -l
+   92  pwd
+   93  mkdir problemsets1
+   94  mv seq.nt.fa problemsets1/
+   95  ls -lt
+   96  ls -l
+   97  ls ../problemset1
+   98  ls ../problemsets1
+   99  ls pfb/problemsets1
+  100  pwd
+  101  cd problemsets1/
+  102  pwd
+  103  wc seq.nt.fa 
+  104  head 1 seq.nt.fa 
+  105  man head
+  106  head -1 seq.nt.fa 
+  107  tail -3 seq.nt.fa 
+  108  grep > seq.nt.fa | wc -c
+  109  grep > seq.nt.fa | wc -l
+  110  grep 'AGCT' seq.nt.fa | wc -c
+  111  grep '>' seq.nt.fa | wc -c
+  112  grep ACGT seq.nt.fa | wc -c
+  113  grep ACGT < seq.nt.fa  
+  114  grep ACGT < seq.nt.fa  > count.txt
+  115  cat count.txt 
+  116  count.txt
+  117  wc < count.txt
+  118  rm -i count.txt 
+  119  ls
+  120  rm -i count.txt 
+  121  ls
+  122  grep AGCT seq.nt.fa | wc -l
+  123  grep > seq.nt.fa | wc -l
+  124* grep
+  125  grep-c '>' seq.nt.fa
+  126  grep -c '>' seq.nt.fa
+  127  grep -c ">" seq.nt.fa
+  128  ls
+  129  cat seq.nt.fa 
+  130  touch seq.fa
+  131  emacs seq.fa 
+  132  cat seq.fa
+  133  grep -c ">" seq.fa
+  134* grep > seq.nt.fa 
+  135  grep > seq.fa | wc -l
+  136  grep > seq.fa | wc -c
+  137  grep '>' seq.fa
+  138  grep '>' seq.fa | wc
+  139  grep '>' seq.fa | wc -l
+  140  wc -cl seq.nt.fa 
+  141  wc seq.nt.fa 
+  142  wc seq.fa 
+  143  grep -c ">" seq.fa
+  144  mv seq.nt.fa cancer_genes.fasta
+  145  ls -l
+  146  clear
+  147  curl -0 https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/cuffdiff.txt
+  148  curl -0 https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/cuffdiff.txt > cuffdiff.txt
+  149  cat cuffdiff.txt 
+  150  head cuffdiff.txt 
+  151  sort cuffdiff.txt 
+  152  man grep
+  153  man sort
+  154  sort cuffdiff.txt log2 
+  155* sort cuffdiff.txt 
+  156  less seq.fa
+  157  less seq.nt.fa
+  158  cd ..
+  159  ls
+  160  cd ..
+  161  l
+  162  ls
+  163  ls -l
+  164  ls -t
+  165  cd pfb
+  166  ls -lt
+  167  cd problemsets1/
+  168  ls -lt
+  169  less cancer_genes.fasta 
+  170  cat cancer_genes.fasta 
+  171  file cancer_genes.fasta 
+  172  file seq.fa
+  173  ls -l
+  174  mkdir PFB_problemsets
+  175  echo "# PFB_problemset" >> README.md
+  176  ls -l
+  177  less README.md 
+  178  git init
+  179  git add README.md
+  180  git commit -m "first commit"
+  181  git remote add origin https://github.com/OluwafemiAlaba/PFB_problemset.git
+  182  git push -u origin master
+  183  emacs git_exercises.txt
+  184  git add git_exercises.txt
+  185  git commit -m 'added four lines of text'
+  186  git push origin master
+  187  git clone https://github.com/prog4biol/pfb2018.git
+  188  ls -lt
+  189  cd PFB_problemsets/
+  190  ls
+  191  mv /Users/oluwafemialaba/Documents/pfb/problemsets1
+  192  mv -i /Users/oluwafemialaba/Documents/pfb/problemsets1 .
+  193  mv -i /Users/oluwafemialaba/Documents/pfb/problemsets1
+  194  mv -i ~/pfb/problemsets1 .
+  195  clear
+  196  ls -l
+  197  cd .
+  198  cd ..
+  199  ls -l
+  200  pwd
+  201  git add /Users/oluwafemialaba/Documents/pfb/problemsets1/cancer_genes.fasta 
+  202  git commit -m 'adding cancer_genes.fasta'
+  203  git push
+  204  emacs mysequences.txt
+  205  git add mysequences.txt 
+  206  git commit -m 'adding my sequences'
+  207  git push
+  208  mkdir fastas
+  209  cp cancer_genes.fasta fastas/
+  210  ls -l
+  211  ls -l fastas/
+  212  rm -i cancer_genes.fasta 
+  213  ls -l
+  214  git status
+  215  git add -a *txt
+  216  git add *txt
+  217  git commit -a *txt
+  218  git commit -m *txt
+  219  git push
+  220  git status
+  221  echo history > unixBasics.history.txt
+  222  git add unixBasics.history.txt 
+  223  git commit -m 'adding my history for basic unix pfb'
+  224  git push
+  225  ls -l
+  226  less unixBasics.history.txt 
+  227  history
+  228  history > unixBasics.history.txt 
